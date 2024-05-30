@@ -1,6 +1,9 @@
 # SimpleKlogger
 This a simple code for beginners to learn keylogger how common tools working like mSpy-uMobix-Spynger and  much more
-دعوني أشرح هذا الكود خطوة بخطوة:
+
+
+دعوني أشرح
+هذا الكود خطوة بخطوة:
 
 يبدأ البرنامج بتحميل مكتبة pynput، والتي تسمح لنا بالتحكم في لوحة المفاتيح.
 يتم تعريف دالة on_press(key)، وهي تستجيب عند الضغط على مفتاح. هذه الدالة تقوم بطباعة الحرف المضغوط (إذا كان حرفًا)، وإلا فإنها تتعامل مع المفاتيح الخاصة مثل “Enter”.
